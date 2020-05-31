@@ -1,0 +1,47 @@
+.App {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 100vh 100vh 100vh;
+}
+
+#welcome {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto;
+  justify-content: space-evenly;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: relative;
+  height: 100vh;
+  background-image: url("welcome.jpg");
+  margin: 0;
+}
+
+.t {
+  grid-row: 3/4;
+  text-align: center;
+  font-size: 7vw;
+  color: white;
+  font-weight: strong;
+  padding-top: 10vh;
+}
+
+.b {
+  grid-row: 4/5;
+  text-align: center;
+  font-size: 4vw;
+  font-style: italic;
+  color: white;
+}
+
+.tdiv {
+  grid-row: 1/3;
+  text-align: center;
+}
+
+.bdiv {
+  grid-row: 5/7;
+  text-align: center;
+}
